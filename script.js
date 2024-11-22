@@ -92,8 +92,8 @@ document.onmousemove = (event) => {
         
             var currentWidth = parseInt(window.getComputedStyle(eyeBall).width);
             var currentHeight = parseInt(window.getComputedStyle(eyeBall).height);
-            eyeBall.style.width = (currentWidth + 10) + "px";
-            eyeBall.style.height = (currentHeight + 10) + "px";
+            eyeBall.style.width = (currentWidth + 5) + "px";
+            eyeBall.style.height = (currentHeight + 5) + "px";
 
           
             dot.randomPosition();
